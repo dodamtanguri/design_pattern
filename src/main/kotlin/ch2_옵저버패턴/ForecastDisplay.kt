@@ -8,9 +8,15 @@ class ForecastDisplay(var weatherData: WeatherData) : Observer, DisplayElement {
        weatherData.registerObserver(this)
    }
 
-    override fun update(temp: Float, humidity: Float, pressure: Float) {
-       lastPressure = currentPressure
-        currentPressure = pressure
+//    override fun update(temp: Float, humidity: Float, pressure: Float) {
+//       lastPressure = currentPressure
+//        currentPressure = pressure
+//        display()
+//    }
+
+    override fun update() {
+        this.lastPressure = currentPressure
+        this.currentPressure = weatherData.pressure
         display()
     }
 

@@ -13,16 +13,25 @@ class StatisticsDisplay( var weatherData: WeatherData) : Observer, DisplayElemen
     init {
         weatherData.registerObserver(this)
     }
-    override fun update(temp: Float, humidity: Float, pressure: Float) {
+//    override fun update(temp: Float, humidity: Float, pressure: Float) {
+//
+//       var currentTemp : Float = weatherData.temperature
+//
+//       this.tempSum += currentTemp;
+//       this.numReading++;
+//
+//        if (currentTemp > maxTemp) {maxTemp = currentTemp}
+//        if (currentTemp < minTemp) {minTemp = currentTemp}
+//        display()
+//    }
+    override fun update() {
+        var currentTemp : Float = weatherData.temperature
 
-       var currentTemp : Float = weatherData.temperature
-
-       this.tempSum += currentTemp;
-       this.numReading++;
-
-        if (currentTemp > maxTemp) {maxTemp = currentTemp}
-        if (currentTemp < minTemp) {minTemp = currentTemp}
-        display()
+      this.tempSum += currentTemp;
+    this.numReading++;
+               if (currentTemp > maxTemp) {maxTemp = currentTemp}
+       if (currentTemp < minTemp) {minTemp = currentTemp}
+       display()
     }
 
     override fun display() {

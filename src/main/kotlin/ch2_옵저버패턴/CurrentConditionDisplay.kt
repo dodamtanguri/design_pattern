@@ -16,11 +16,16 @@ class CurrentConditionDisplay(private var weatherData: WeatherData) : Observer, 
         weatherData.registerObserver(this)
     }
 
-    override fun update(temperature: Float, humidity: Float, pressure: Float) {
-        this.temperature = temperature
-        this.humidity = humidity
-        //데이터를 화면에 표시할때는 mvc 패턴이 좀 더 좋음
-        display()
+//    override fun update(temperature: Float, humidity: Float, pressure: Float) {
+//        this.temperature = temperature
+//        this.humidity = humidity
+//        //데이터를 화면에 표시할때는 mvc 패턴이 좀 더 좋음
+//        display()
+//    }
+    override fun update() {
+      this.temperature = weatherData.temperature
+      this.humidity = weatherData.humidity
+    display()
     }
     //가장 최근에 받은 온도와 습도를 출력
     override fun display() {

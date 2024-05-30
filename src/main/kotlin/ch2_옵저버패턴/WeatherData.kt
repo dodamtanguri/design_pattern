@@ -15,7 +15,14 @@ class WeatherData : Subject {
     }
     override fun notifyObserver() {
         for (observer in observers) {
-            observer.update(temperature, humidity, pressure);
+          //------------------------------------------------
+          // 푸시 방식 : 주제가 옵저버로 데이터를 보냄.
+          //------------------------------------------------
+          //  observer.update(temperature, humidity, pressure);
+            //------------------------------------------------
+            // 풀 방식 : 옵저버가 주제로부터 데이터를 당겨옴.
+            //------------------------------------------------
+            observer.update()
         }
     }
     fun measurementsChanged() {
@@ -27,6 +34,7 @@ class WeatherData : Subject {
         this.pressure = pressure
         measurementsChanged()
     }
+
 
 }
 

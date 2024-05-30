@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c11212fe-900e-437e-a5cd-0b9b4088412b" name="Changes" comment="" />
+    <list default="true" id="c11212fe-900e-437e-a5cd-0b9b4088412b" name="Changes" comment="init project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ch2_옵저버패턴/CurrentConditionDisplay.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ch2_옵저버패턴/CurrentConditionDisplay.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ch2_옵저버패턴/ForecastDisplay.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ch2_옵저버패턴/ForecastDisplay.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ch2_옵저버패턴/Observer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ch2_옵저버패턴/Observer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ch2_옵저버패턴/StatisticsDisplay.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ch2_옵저버패턴/StatisticsDisplay.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ch2_옵저버패턴/WeatherData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ch2_옵저버패턴/WeatherData.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +22,34 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Data Class" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "dodamtanguri"
+  }
+}]]></component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="8093b0ce-c4cf-4b09-9b91-0c01825bb72d" />
+  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/dodamtanguri/design_pattern.git",
+    "accountId": "8093b0ce-c4cf-4b09-9b91-0c01825bb72d"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
 }]]></component>
@@ -26,13 +61,88 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Build design_pattern.executor": "Run",
+    "Kotlin.FunctionsKt.executor": "Run",
+    "Kotlin.InfixFunctionsKt.executor": "Run",
+    "Kotlin.IntroductionKt.executor": "Run",
+    "Kotlin.OperationFunctionsKt.executor": "Run",
+    "Kotlin.SimUduckKt.executor": "Run",
+    "Kotlin.VarargsKt.executor": "Run",
+    "Kotlin.WeatherDataKt.executor": "Run",
+    "Kotlin.WeatherStation$WeatherStation.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "kotlin-gradle-user-dirs": [
+      "/Users/kpc/.gradle"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/kotlin_introduction" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.WeatherStation$WeatherStation">
+    <configuration name="OperationFunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kotlin_introduction.OperationFunctionsKt" />
+      <module name="design_pattern.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimUduckKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch1_전략패턴.SimUduckKt" />
+      <module name="design_pattern.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VarargsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kotlin_introduction.VarargsKt" />
+      <module name="design_pattern.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherDataKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch2_옵저버패턴.WeatherDataKt" />
+      <module name="design_pattern.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherStation$WeatherStation" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch2_옵저버패턴.WeatherStation$WeatherStation" />
+      <module name="design_pattern.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.WeatherStation$WeatherStation" />
+        <item itemvalue="Kotlin.WeatherDataKt" />
+        <item itemvalue="Kotlin.SimUduckKt" />
+        <item itemvalue="Kotlin.VarargsKt" />
+        <item itemvalue="Kotlin.OperationFunctionsKt" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -49,11 +159,50 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716852550663</updated>
-      <workItem from="1716852551696" duration="1000" />
+      <workItem from="1716852551696" duration="47601000" />
     </task>
+    <task id="LOCAL-00001" summary="init project">
+      <option name="closed" value="true" />
+      <created>1716852598302</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716852598302</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init project" />
+    <option name="LAST_COMMIT_MESSAGE" value="init project" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/ch2_옵저버패턴/WeatherStation.kt</url>
+          <line>6</line>
+          <properties class="ch2_옵저버패턴.WeatherStation.WeatherStation.Companion" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
