@@ -7,10 +7,6 @@
     <list default="true" id="c11212fe-900e-437e-a5cd-0b9b4088412b" name="Changes" comment="init project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/ch2_옵저버패턴/CurrentConditionDisplay.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ch2_옵저버패턴/CurrentConditionDisplay.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ch2_옵저버패턴/ForecastDisplay.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ch2_옵저버패턴/ForecastDisplay.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ch2_옵저버패턴/Observer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ch2_옵저버패턴/Observer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ch2_옵저버패턴/StatisticsDisplay.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ch2_옵저버패턴/StatisticsDisplay.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ch2_옵저버패턴/WeatherData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ch2_옵저버패턴/WeatherData.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +46,9 @@
     "accountId": "8093b0ce-c4cf-4b09-9b91-0c01825bb72d"
   }
 }]]></component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
 }]]></component>
@@ -69,21 +68,24 @@
     "Kotlin.SimUduckKt.executor": "Run",
     "Kotlin.VarargsKt.executor": "Run",
     "Kotlin.WeatherDataKt.executor": "Run",
-    "Kotlin.WeatherStation$WeatherStation.executor": "Run",
+    "Kotlin.WeatherStation$WeatherStation.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "actions.on.save",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -159,7 +161,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716852550663</updated>
-      <workItem from="1716852551696" duration="47601000" />
+      <workItem from="1716852551696" duration="52405000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <option name="closed" value="true" />
@@ -189,20 +191,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init project" />
     <option name="LAST_COMMIT_MESSAGE" value="init project" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-function">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/ch2_옵저버패턴/WeatherStation.kt</url>
-          <line>6</line>
-          <properties class="ch2_옵저버패턴.WeatherStation.WeatherStation.Companion" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

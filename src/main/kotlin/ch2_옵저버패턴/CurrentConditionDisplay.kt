@@ -10,7 +10,7 @@ package ch2_옵저버패턴
 class CurrentConditionDisplay(private var weatherData: WeatherData) : Observer, DisplayElement {
     var temperature : Float = 0f
     var humidity : Float = 0f
-    //객체를 생성하는 동안 일부 코드를 실행하려면 클래스 본문안에 init keyword 사용하여 선언.
+//객체를 생성하는 동안 일부 코드를 실행하려면 클래스 본문안에 init keyword 사용하여 선언.
 //객체가 초기화되는 동안, 초기화 블록은 클래스 본문에 작성된 순서대로 실행 이 초기화 블록은 속성 초기화 코드와 교차(interleaved)하여 실행됩니다.
     init {
         weatherData.registerObserver(this)
@@ -27,7 +27,7 @@ class CurrentConditionDisplay(private var weatherData: WeatherData) : Observer, 
       this.humidity = weatherData.humidity
     display()
     }
-    //가장 최근에 받은 온도와 습도를 출력
+    //가장 최근에 받은 온도와 습도를 출력L
     override fun display() {
         println("현재 상태: 온도 $temperature F, 습도 $humidity %")
     }
