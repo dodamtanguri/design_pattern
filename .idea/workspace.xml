@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c11212fe-900e-437e-a5cd-0b9b4088412b" name="Changes" comment="init project">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ch2_옵저버패턴/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ch2_옵저버패턴/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="c11212fe-900e-437e-a5cd-0b9b4088412b" name="Changes" comment="init project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,7 +162,7 @@
       <workItem from="1716852551696" duration="52405000" />
       <workItem from="1717055816531" duration="24000" />
       <workItem from="1717122006134" duration="1203000" />
-      <workItem from="1717132116103" duration="2001000" />
+      <workItem from="1717132116103" duration="2750000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <option name="closed" value="true" />
