@@ -4,7 +4,7 @@ package ch2_옵저버패턴
 /**
  *
  */
-class StatisticsDisplay( var weatherData: WeatherData) : Observer, DisplayElement {
+ class StatisticsDisplay( var weatherData: WeatherData) : Observer, DisplayElement {
     var maxTemp : Float = 0.0F
     var minTemp : Float = 200F
     var tempSum : Float = 0.0F
@@ -25,11 +25,12 @@ class StatisticsDisplay( var weatherData: WeatherData) : Observer, DisplayElemen
 //        display()
 //    }
     override fun update() {
+        println("statisticsDisplay update")
         var currentTemp : Float = weatherData.temperature
 
       this.tempSum += currentTemp;
-    this.numReading++;
-               if (currentTemp > maxTemp) {maxTemp = currentTemp}
+      this.numReading++;
+       if (currentTemp > maxTemp) {maxTemp = currentTemp}
        if (currentTemp < minTemp) {minTemp = currentTemp}
        display()
     }

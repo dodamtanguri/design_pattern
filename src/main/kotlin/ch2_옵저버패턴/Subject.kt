@@ -1,7 +1,7 @@
 package ch2_옵저버패턴
 
-interface Subject {
-    fun registerObserver(o: Observer): Unit {}
-    fun removeObserver(o: Observer): Unit {}
-    fun notifyObserver(): Unit {}
+abstract class Subject {
+   abstract fun registerObserver(o: Observer)
+    abstract fun removeObserver(o: Observer)
+    abstract fun notifyObserver()
 }
