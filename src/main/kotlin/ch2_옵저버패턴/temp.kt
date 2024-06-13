@@ -23,7 +23,7 @@ class WeatherData : Subject() {
 
     fun notifyObservers() {
         for (observer in observers) {
-            observer.update(temperature, humidity, pressure)
+            observer.update()
         }
     }
 

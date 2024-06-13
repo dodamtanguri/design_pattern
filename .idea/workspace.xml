@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c11212fe-900e-437e-a5cd-0b9b4088412b" name="Changes" comment="init project">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ch3_데코레이터패턴/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ch2_옵저버패턴/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ch2_옵저버패턴/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ch2_옵저버패턴/StatisticsDisplay.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ch2_옵저버패턴/StatisticsDisplay.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ch2_옵저버패턴/DisplayElement.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ch2_옵저버패턴/DisplayElement.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,43 +59,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build design_pattern.executor": "Run",
-    "Kotlin.FunctionsKt.executor": "Run",
-    "Kotlin.InfixFunctionsKt.executor": "Run",
-    "Kotlin.IntroductionKt.executor": "Run",
-    "Kotlin.OperationFunctionsKt.executor": "Run",
-    "Kotlin.SimUduckKt.executor": "Run",
-    "Kotlin.VarargsKt.executor": "Run",
-    "Kotlin.WeatherDataKt.executor": "Run",
-    "Kotlin.WeatherStation$WeatherStation.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/kpc/Study/design_pattern",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.stylelint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build design_pattern.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.FunctionsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.InfixFunctionsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.IntroductionKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.OperationFunctionsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.SimUduckKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.VarargsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.WeatherDataKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.WeatherStation$WeatherStation.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kpc/Study/design_pattern&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "kotlin-gradle-user-dirs": [
-      "/Users/kpc/.gradle"
+  &quot;keyToStringList&quot;: {
+    &quot;kotlin-gradle-user-dirs&quot;: [
+      &quot;/Users/kpc/.gradle&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin/kotlin_introduction" />
@@ -167,6 +167,9 @@
       <workItem from="1717055816531" duration="24000" />
       <workItem from="1717122006134" duration="1203000" />
       <workItem from="1717132116103" duration="6997000" />
+      <workItem from="1717476817699" duration="6262000" />
+      <workItem from="1718094240003" duration="3881000" />
+      <workItem from="1718173536986" duration="1273000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <option name="closed" value="true" />

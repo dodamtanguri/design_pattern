@@ -38,5 +38,6 @@ package ch2_옵저버패턴
     override fun display() {
      println("평균/최고/최저 온도 = ${tempSum/ numReading}/$maxTemp/$minTemp")
     }
+
 }
 
