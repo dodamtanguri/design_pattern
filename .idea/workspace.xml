@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c11212fe-900e-437e-a5cd-0b9b4088412b" name="Changes" comment="init project">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ch3_데코레이터패턴/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ch2_옵저버패턴/DisplayElement.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ch2_옵저버패턴/DisplayElement.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,6 +168,8 @@
       <workItem from="1717476817699" duration="6262000" />
       <workItem from="1718094240003" duration="3881000" />
       <workItem from="1718173536986" duration="1273000" />
+      <workItem from="1718256803200" duration="816000" />
+      <workItem from="1718586660638" duration="729000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <option name="closed" value="true" />
