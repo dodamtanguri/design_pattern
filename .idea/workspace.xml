@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c11212fe-900e-437e-a5cd-0b9b4088412b" name="Changes" comment="init project">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ch5_싱글톤패턴/LazyInitialization.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ch5_싱글톤패턴/Singleton.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ch5_싱글톤패턴/Singleton2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/EagerInitialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/LazyInitialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/StaticBlockInitialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ch5_싱글톤패턴/Singleton2.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +71,8 @@
   "keyToString": {
     "Gradle.Build design_pattern.executor": "Run",
     "Gradle.design_pattern [:AdManager.main()].executor": "Run",
+    "Gradle.design_pattern [:Main.main()].executor": "Run",
+    "Gradle.design_pattern [:test.main()].executor": "Run",
     "Kotlin.CompanionObjectKt.executor": "Run",
     "Kotlin.FunctionsKt.executor": "Run",
     "Kotlin.InfixFunctionsKt.executor": "Run",
@@ -116,13 +122,13 @@
       <recent name="ch4_팩토리패턴.simplePizzaFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="AdManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch4_팩토리패턴.AdTracker.AdManager" />
+  <component name="RunManager" selected="Application.LazyInitialization">
+    <configuration name="LazyInitialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="singleton.LazyInitialization" />
       <module name="design_pattern.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch4_팩토리패턴.AdTracker.*" />
+          <option name="PATTERN" value="singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,8 +149,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompanionObjectKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch4_팩토리패턴.CompanionObjectKt" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
       <module name="design_pattern.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -166,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LazyInitialization" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Kotlin.LazyInitializationKt" />
         <item itemvalue="Kotlin.SingletonKt" />
-        <item itemvalue="Application.AdManager" />
-        <item itemvalue="Kotlin.CompanionObjectKt" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +212,8 @@
       <workItem from="1720139710119" duration="104000" />
       <workItem from="1720139821320" duration="996000" />
       <workItem from="1720142342405" duration="1956000" />
-      <workItem from="1720154635266" duration="5562000" />
+      <workItem from="1720154635266" duration="7294000" />
+      <workItem from="1720572944152" duration="1536000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <option name="closed" value="true" />
