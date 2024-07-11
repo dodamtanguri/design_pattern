@@ -29,11 +29,10 @@ public class BillPughSolution_LazyHolder {
             e.printStackTrace();
         }
     }
-
+    //내부 클래스도 결국은 클래스라 클래스가 로드될때 딱 한 번만 초기화되는 특성을 이용 >> static final 상수에 싱글톤 객체 할당.
+    //클래스로딩 및 초기화 과정이 스레드 세이프함을 이용하여 멀티스레드 환경에서도 문제없이 싱글톤 인스턴스를 만들 수 있음.
     private static class  SingletonHolder{
         private static final BillPughSolution_LazyHolder instance = new BillPughSolution_LazyHolder();
     }
-
-
     }
 
