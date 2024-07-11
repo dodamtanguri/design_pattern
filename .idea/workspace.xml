@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c11212fe-900e-437e-a5cd-0b9b4088412b" name="Changes" comment="init project">
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/BillPughSolution_LazyHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/ThreadSafeInitialization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/BillPughSolution_LazyHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/singleton/BillPughSolution_LazyHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/EagerInitialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/singleton/EagerInitialization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/LazyInitialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/singleton/LazyInitialization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/StaticBlockInitialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/singleton/StaticBlockInitialization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/ThreadSafeInitialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/singleton/ThreadSafeInitialization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +70,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BillPughSolution_LazyHolder.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.test.executor": "Run",
     "Gradle.Build design_pattern.executor": "Run",
     "Gradle.design_pattern [:AdManager.main()].executor": "Run",
     "Gradle.design_pattern [:BillPughSolution_LazyHolder.main()].executor": "Run",
@@ -86,6 +95,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "dart.analysis.tool.window.visible": "false",
+    "external.system.has.shared.sources": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/kpc/Study/design_pattern",
@@ -97,8 +107,8 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.24542429",
     "rearrange.code.on.save": "true",
     "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
@@ -111,7 +121,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/kotlin/kotlin_introduction" />
+      <recent name="$PROJECT_DIR$/java/src/main" />
+      <recent name="$PROJECT_DIR$/java/src" />
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="CreateKotlinClassDialog.RecentsKey">
       <recent name="ch4_팩토리패턴" />
@@ -120,7 +134,7 @@
       <recent name="ch4_팩토리패턴.simplePizzaFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BillPughSolution_LazyHolder">
+  <component name="RunManager" selected="Application.test">
     <configuration name="BillPughSolution_LazyHolder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singleton.BillPughSolution_LazyHolder" />
       <module name="design_pattern.main" />
@@ -182,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.BillPughSolution_LazyHolder" />
         <item itemvalue="Application.ThreadSafeInitialization" />
         <item itemvalue="Application.LazyInitialization" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -224,6 +238,7 @@
       <workItem from="1720142342405" duration="1956000" />
       <workItem from="1720154635266" duration="7294000" />
       <workItem from="1720572944152" duration="4921000" />
+      <workItem from="1720661185871" duration="475000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <option name="closed" value="true" />
@@ -253,6 +268,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init project" />
     <option name="LAST_COMMIT_MESSAGE" value="init project" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/main/test.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
