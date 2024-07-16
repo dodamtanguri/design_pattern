@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c11212fe-900e-437e-a5cd-0b9b4088412b" name="Changes" comment="init project">
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/singleton/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/main/java/singleton/SingletonEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/singleton/SingletonEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/singleton/BillPughSolution_LazyHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/singleton/BillPughSolution_LazyHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/singleton/ThreadSafeInitialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/singleton/ThreadSafeInitialization.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +76,7 @@
     "Gradle.design_pattern [:ThreadSafeInitialization.main()].executor": "Run",
     "Gradle.design_pattern [:test.main()].executor": "Run",
     "Gradle.design_pattern:java [:java:BillPughSolution_LazyHolder.main()].executor": "Run",
+    "Gradle.design_pattern:java [:java:LazyInitialization.main()].executor": "Run",
     "Gradle.design_pattern:java [:java:ThreadSafeInitialization.main()].executor": "Run",
     "Gradle.design_pattern:java [:java:test.main()].executor": "Run",
     "Kotlin.CompanionObjectKt.executor": "Run",
@@ -144,6 +147,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LazyInitialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="singleton.LazyInitialization" />
+      <module name="design_pattern.java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThreadSafeInitialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singleton.ThreadSafeInitialization" />
       <module name="design_pattern.java.main" />
@@ -157,16 +173,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <module name="design_pattern.java.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <module name="design_pattern.main" />
+      <option name="MAIN_CLASS_NAME" value="singleton.test" />
+      <module name="design_pattern.java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -180,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.LazyInitialization" />
         <item itemvalue="Application.ThreadSafeInitialization" />
         <item itemvalue="Application.BillPughSolution_LazyHolder (1)" />
         <item itemvalue="Kotlin.FunctionsKt" />
-        <item itemvalue="Application.test (1)" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -226,6 +241,8 @@
       <workItem from="1720661905655" duration="2470000" />
       <workItem from="1720665357425" duration="1506000" />
       <workItem from="1721030749925" duration="148000" />
+      <workItem from="1721030908702" duration="32000" />
+      <workItem from="1721089014623" duration="4295000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <option name="closed" value="true" />
