@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c11212fe-900e-437e-a5cd-0b9b4088412b" name="Changes" comment="init project">
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/singleton/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ch6_commandPattern/CommandPattern.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/main/java/singleton/BillPughSolution_LazyHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/singleton/BillPughSolution_LazyHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/main/java/singleton/ThreadSafeInitialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/singleton/ThreadSafeInitialization.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +24,8 @@
         <option value="Kotlin File" />
         <option value="Kotlin Interface" />
         <option value="Kotlin Data Class" />
-        <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -79,6 +77,7 @@
     "Gradle.design_pattern:java [:java:LazyInitialization.main()].executor": "Run",
     "Gradle.design_pattern:java [:java:ThreadSafeInitialization.main()].executor": "Run",
     "Gradle.design_pattern:java [:java:test.main()].executor": "Run",
+    "Kotlin.CommandPatternKt.executor": "Run",
     "Kotlin.CompanionObjectKt.executor": "Run",
     "Kotlin.FunctionsKt.executor": "Debug",
     "Kotlin.InfixFunctionsKt.executor": "Run",
@@ -133,7 +132,7 @@
       <recent name="ch4_팩토리패턴.simplePizzaFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadSafeInitialization">
+  <component name="RunManager" selected="Kotlin.CommandPatternKt">
     <configuration name="BillPughSolution_LazyHolder (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singleton.BillPughSolution_LazyHolder" />
       <module name="design_pattern.java.main" />
@@ -186,8 +185,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kotlin_introduction.FunctionsKt" />
+    <configuration name="CommandPatternKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch6_commandPattern.CommandPatternKt" />
       <module name="design_pattern.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -195,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.CommandPatternKt" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.LazyInitialization" />
         <item itemvalue="Application.ThreadSafeInitialization" />
         <item itemvalue="Application.BillPughSolution_LazyHolder (1)" />
-        <item itemvalue="Kotlin.FunctionsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +241,8 @@
       <workItem from="1720665357425" duration="1506000" />
       <workItem from="1721030749925" duration="148000" />
       <workItem from="1721030908702" duration="32000" />
-      <workItem from="1721089014623" duration="4295000" />
+      <workItem from="1721089014623" duration="5767000" />
+      <workItem from="1722831408012" duration="3495000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <option name="closed" value="true" />
