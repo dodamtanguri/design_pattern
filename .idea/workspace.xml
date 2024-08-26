@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c11212fe-900e-437e-a5cd-0b9b4088412b" name="Changes" comment="init project">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ch6_commandPattern/CommandPattern.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ch7_AdapterPattern/AdapterPattern.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,12 +107,12 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.24542429",
     "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "kotlin-gradle-user-dirs": [
-      "/Users/kpc/.gradle"
+      "/Users/dodam/.gradle"
     ]
   }
 }]]></component>
@@ -132,20 +131,7 @@
       <recent name="ch4_팩토리패턴.simplePizzaFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.CommandPatternKt">
-    <configuration name="BillPughSolution_LazyHolder (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singleton.BillPughSolution_LazyHolder" />
-      <module name="design_pattern.java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.AdapterPatternKt">
     <configuration name="LazyInitialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singleton.LazyInitialization" />
       <module name="design_pattern.java.main" />
@@ -185,6 +171,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AdapterPatternKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch7_AdapterPattern.AdapterPatternKt" />
+      <module name="design_pattern.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CommandPatternKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch6_commandPattern.CommandPatternKt" />
       <module name="design_pattern.main" />
@@ -194,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.AdapterPatternKt" />
         <item itemvalue="Kotlin.CommandPatternKt" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.LazyInitialization" />
         <item itemvalue="Application.ThreadSafeInitialization" />
-        <item itemvalue="Application.BillPughSolution_LazyHolder (1)" />
       </list>
     </recent_temporary>
   </component>
