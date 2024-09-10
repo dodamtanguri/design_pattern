@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c11212fe-900e-437e-a5cd-0b9b4088412b" name="Changes" comment="init project">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ch7_AdapterPattern/AdapterPattern.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ch8_templatemethodpattern/TemplateMethodPattern.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +77,7 @@
     "Gradle.design_pattern:java [:java:LazyInitialization.main()].executor": "Run",
     "Gradle.design_pattern:java [:java:ThreadSafeInitialization.main()].executor": "Run",
     "Gradle.design_pattern:java [:java:test.main()].executor": "Run",
+    "Kotlin.AdapterPatternKt.executor": "Run",
     "Kotlin.CommandPatternKt.executor": "Run",
     "Kotlin.CompanionObjectKt.executor": "Run",
     "Kotlin.FunctionsKt.executor": "Debug",
@@ -86,6 +88,7 @@
     "Kotlin.SimUduckKt.executor": "Run",
     "Kotlin.SingletonKt.executor": "Run",
     "Kotlin.StarbuzzCoffeeKt.executor": "Run",
+    "Kotlin.TemplateMethodPatternKt.executor": "Run",
     "Kotlin.VarargsKt.executor": "Run",
     "Kotlin.WeatherDataKt.executor": "Run",
     "Kotlin.WeatherStation$WeatherStation.executor": "Run",
@@ -107,12 +110,12 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.24542429",
     "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "settings.editor.selected.configurable": "settings.sync",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "kotlin-gradle-user-dirs": [
-      "/Users/dodam/.gradle"
+      "/Users/kpc/.gradle"
     ]
   }
 }]]></component>
@@ -131,22 +134,9 @@
       <recent name="ch4_팩토리패턴.simplePizzaFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.AdapterPatternKt">
+  <component name="RunManager" selected="Kotlin.TemplateMethodPatternKt">
     <configuration name="LazyInitialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singleton.LazyInitialization" />
-      <module name="design_pattern.java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadSafeInitialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singleton.ThreadSafeInitialization" />
       <module name="design_pattern.java.main" />
       <extension name="coverage">
         <pattern>
@@ -185,13 +175,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TemplateMethodPatternKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch8_templatemethodpattern.TemplateMethodPatternKt" />
+      <module name="design_pattern.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TemplateMethodPatternKt" />
         <item itemvalue="Kotlin.AdapterPatternKt" />
         <item itemvalue="Kotlin.CommandPatternKt" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.LazyInitialization" />
-        <item itemvalue="Application.ThreadSafeInitialization" />
       </list>
     </recent_temporary>
   </component>
@@ -236,6 +233,7 @@
       <workItem from="1721030908702" duration="32000" />
       <workItem from="1721089014623" duration="5767000" />
       <workItem from="1722831408012" duration="3495000" />
+      <workItem from="1725923715343" duration="104000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <option name="closed" value="true" />
